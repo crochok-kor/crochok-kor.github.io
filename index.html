@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제44회 동국대학교 지리교육과 답사사진전</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content fade-in-up">
+            <p class="hero-subtitle">The 44th Field Trip Photo Exhibition</p>
+            <h1 class="hero-title">제44회 동국대학교<br>지리교육과 답사사진전</h1>
+            <p class="hero-slogan-en">Dreams Unfolding on the Map, the Future We Will Create Together</p>
+            <p class="hero-date">2025. 11. 28 (FRI) — 11. 30 (SUN)</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Greetings Section (Summary) -->
+    <section id="greetings" class="section greetings-section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">초대의 글</h2>
+            <div class="greetings-summary fade-in-on-scroll">
+                <p class="summary-text">
+                    "지도 위에 펼쳐진 우리 이야기를 사진으로 담았습니다.<br>
+                    여러분의 발걸음이 저희에게 큰 힘이 됩니다."
+                </p>
+                <div class="summary-profiles">
+                    <div class="mini-profile">
+                        <div class="profile-placeholder-small"></div>
+                        <span>박지훈 학생회장</span>
+                    </div>
+                    <div class="mini-profile">
+                        <div class="profile-placeholder-small"></div>
+                        <span>지소민 공간지기장</span>
+                    </div>
+                    <div class="mini-profile">
+                        <div class="profile-placeholder-small"></div>
+                        <span>안재섭 주임교수</span>
+                    </div>
+                </div>
+                <a href="greetings.html" class="btn-link">초대의 글 전체 보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="about-content fade-in-on-scroll">
+                <h2 class="about-slogan">지도 위에 펼친 꿈,<br>함께 그려갈 내일</h2>
+                <p class="about-text">
+                    우리는 길 위에서 배우고, 지도 위에서 꿈을 꿉니다.<br>
+                    제44회 답사사진전은 단순한 기록을 넘어,<br>
+                    우리가 걸어온 길과 앞으로 나아갈 길을 잇는 자리입니다.<br><br>
+                    동국대학교 지리교육과 학우들이<br>
+                    전국 각지에서 담아온 생생한 현장의 숨결을 느껴보세요.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">Online Gallery</h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Footer -->
+    <section id="location" class="section location-section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">Location</h2>
+            <div class="location-content fade-in-on-scroll">
+                <div class="map-container">
+                    <!-- Placeholder for Map -->
+                    <div class="map-placeholder">
+                        <span>Map View (Art Space No)</span>
+                    </div>
+                </div>
+                <div class="location-info">
+                    <h3>아트스페이스노</h3>
+                    <p>서울 중구 퇴계로 36나길 30 B층</p>
+                    <div class="info-divider"></div>
+                    <div class="organizer-info">
+                        <p><strong>주최</strong> 동국대학교 지리교육과 공간지기</p>
+                        <p><strong>후원</strong> 동국대학교 지리교육과 동문회</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dongguk University Geography Education. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+            <div class="modal-caption">
+                <h3 id="modalTitle"></h3>
+                <p id="modalAuthor" class="modal-author"></p>
+                <p id="modalDesc" class="modal-desc"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
